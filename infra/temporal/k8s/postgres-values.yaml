@@ -1,0 +1,9 @@
+# Bitnami PostgreSQL — dev-sized store for Temporal (default + visibility SQL).
+# Install: see install.sh (uses bitnami/postgresql from charts.bitnami.com).
+auth:
+  enablePostgresUser: true
+  postgresPassword: temporal
+primary:
+  persistence:
+    enabled: true
+    size: 8Gi
