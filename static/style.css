@@ -1,0 +1,28 @@
+:root {
+  --bg: #f4f7fb;
+  --card: #ffffff;
+  --accent: #4361ee;
+}
+
+body {
+  background: linear-gradient(180deg, #f7f9fc, var(--bg));
+  min-height: 100vh;
+}
+
+.hero-card {
+  background: linear-gradient(120deg, #ffffff, #eef3ff);
+}
+
+.action-btn {
+  background: var(--card);
+  border: 1px solid #e8ecf5;
+  border-radius: 0.8rem;
+}
+
+.action-btn:hover {
+  border-color: var(--accent);
+}
+
+.room-card {
+  border-radius: 0.8rem;
+}
